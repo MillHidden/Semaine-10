@@ -10,3 +10,38 @@
       .multiplicateurs img{
         height: 100px;
       }
+      
+      .hidden {
+        visibility: hidden;
+      }
+      
+      .grise {
+        opacity: 0.5;
+      }
+      
+      .infobulle {
+          display: none;
+      }
+      
+      .multiplicateurs div div {
+        position: relative;
+      }
+      
+      .multiplicateurs div div:hover {
+        background: none;
+        z-index: 500;
+      }
+      
+      .multiplicateurs div div:hover .infobulle {
+        display: inline;
+        position: absolute;
+        white-space: nowrap;
+        bottom: 0;
+        left: 20px;
+       
+        background: white;
+        color: blue;
+        padding: 3px;
+        
+        font-size: 0.8em;
+      }
